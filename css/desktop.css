@@ -1,0 +1,21 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1128px;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .contacts-list {
+    /* display: flex; */
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contacts-list .link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}

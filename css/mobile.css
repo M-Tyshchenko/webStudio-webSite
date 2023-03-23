@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 396px;
+  }
+
+  .site-nav-list {
+    display: none;
+  }
+
+  .contacts-list {
+    display: none;
+  }
+}

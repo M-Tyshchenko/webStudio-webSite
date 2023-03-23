@@ -1,8 +1,9 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1128px;
+    max-width: 1128px;
   }
 
+  /*=====================Header=====================*/
   .logo {
     margin-right: 76px;
   }
@@ -17,5 +18,53 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+  }
+
+  /*=====================Features=====================*/
+  .features {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
+  .feature-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .feature-description {
+    font-weight: 400;
+  }
+
+  .feature-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .feature-list-item::before {
+    display: block;
+    content: "";
+    margin-bottom: 8px;
+    height: 112px;
+    border-radius: 4px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--light);
+  }
+
+  .icon-antenna::before {
+    background-image: url(../images/svg/antenna.svg);
+  }
+
+  .icon-clock::before {
+    background-image: url(../images/svg/clock.svg);
+  }
+
+  .icon-diagram::before {
+    background-image: url(../images/svg/diagram.svg);
+  }
+
+  .icon-astronaut::before {
+    background-image: url(../images/svg/astronaut.svg);
   }
 }

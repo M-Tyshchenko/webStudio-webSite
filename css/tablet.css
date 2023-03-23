@@ -1,8 +1,9 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 736px;
+    max-width: 736px;
   }
 
+  /*=====================Header=====================*/
   .page-header {
     display: flex;
     align-items: center;
@@ -77,5 +78,20 @@
   .contacts-list .link:hover,
   .contacts-list .link:focus {
     color: var(--pressed-state);
+  }
+
+  /*=====================Features=====================*/
+  .feature-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .feature-subtitle {
+    text-align: left;
+  }
+
+  .feature-list-item {
+    width: calc((100% - 24px) / 2);
   }
 }

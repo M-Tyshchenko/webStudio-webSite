@@ -67,4 +67,35 @@
   .icon-astronaut::before {
     background-image: url(../images/svg/astronaut.svg);
   }
+
+  /*=====================Works=====================*/
+        .works {
+          display: block;
+          padding-top: 60px;
+          padding-bottom: 120px;
+        }
+    
+        .works-list {
+          display: flex;
+          gap: 24px;
+        }
+    
+        .works-list-item {
+          width: calc((100% - 48px) / 3);
+        }
+
+  /*=====================Team=====================*/
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+   .team-list {
+    flex-wrap: nowrap;
+   gap: 24px;
+  }
+
+    
+
+     /*=====================Customers=====================*/
 }

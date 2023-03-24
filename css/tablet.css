@@ -1,12 +1,14 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
   }
 
   /*=====================Header=====================*/
   .page-header {
     display: flex;
     align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .site-nav {
@@ -15,8 +17,7 @@
   }
 
   .logo {
-    padding-bottom: 24px;
-    margin-right: 120px;
+       margin-right: 120px;
   }
 
   .site-nav-list {
@@ -100,6 +101,46 @@
        row-gap: 64px;
        column-gap: 24px;
      }
+/*=====================Customers=====================*/
 
+.customers-list {
+column-gap: 24px;
+}
 
+.customers-item {
+  width: 168px;
+  
+}
+/*=====================Footer=====================*/
+.footer-container {
+   flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 24px;
+}
+
+.logo-footer {
+text-align: left;
+}
+
+.logo-slogan {
+  margin-right: 24px;
+}
+
+.footer-text {
+  margin: 0;
+   width: 264px;
+}
+
+.social-media-subtitle {
+text-align: left;
+}
+
+.subscribe-form {
+  flex-direction: row;
+  gap: 24px;
+}
+.subscribe-input {
+  width: 264px;
+}
 }

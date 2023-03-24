@@ -3,5 +3,11 @@
     max-width: 428px;
   }
 
-  /*=====================Features=====================*/
+  .customers-item {
+    /* width: 190px; */
+  }
+
+  .subscribe-input {
+    width: 398px;
+  }
 }

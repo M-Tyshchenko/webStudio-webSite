@@ -143,8 +143,8 @@ header {
 }
 
 /*----------------- Hero section -------------------*/
-/* .hero-section {
-  padding: 188px 0;
+.hero-section {
+  padding: 112px 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -152,22 +152,23 @@ header {
       var(--hero-background),
       var(--hero-background)
     ),
-    url(../images/people-office.jpg);
+    url(../images/main/herobg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1440px;
+  max-width: 767px;
   background-size: cover;
 }
 
 .hero-title {
-  margin: 0 auto 48px;
-  max-width: 496px;
+  margin: 0 auto 72px;
+  max-width: 320px;
 
   color: var(--light-text);
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .order-btn {
@@ -194,7 +195,7 @@ header {
 .order-btn:hover,
 .order-btn:focus {
   background-color: var(--pressed-state);
-} */
+}
 
 /*--------- Features ----------*/
 
@@ -453,19 +454,21 @@ footer {
 }
 /*-------------------------- Portfolio page --------------------------*/
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .filter {
   display: flex;
-  margin-bottom: 72px;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  justify-content: start;
+  column-gap: 24px;
+  row-gap: 16px;
 }
 
 .filter-btn {
-  padding: 12px 24px;
+  padding: 8px 16px;
   border: 1px solid var(--accent);
   border-radius: 4px;
 
@@ -498,13 +501,12 @@ footer {
 
 .portfolio-list {
   display: flex;
-  column-gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
 }
 
 .project {
-  width: calc((100% - 48px) / 3);
+  width: 100%;
 }
 
 .project-link {
@@ -555,7 +557,7 @@ footer {
 }
 
 /*---------------- Modal -----------------*/
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -572,8 +574,8 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
-  min-height: 576px;
+  width: 392px;
+  min-height: 586px;
   padding: 24px;
 
   background: var(--modal-bg);
@@ -619,10 +621,10 @@ footer {
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
-} */
+}
 
 /*------------------------ Modal-form -------------------------*/
-/* .modal-form-title {
+.modal-form-title {
   margin-top: 0;
   margin-bottom: 16px;
 
@@ -765,4 +767,4 @@ footer {
 
 .send-btn {
   margin: 0 auto;
-} */
+}

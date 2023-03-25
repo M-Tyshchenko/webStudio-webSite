@@ -1,13 +1,22 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
     max-width: 428px;
   }
 
-  .customers-item {
-    /* width: 190px; */
-  }
-
-  .subscribe-input {
+  /* .  .subscribe-input {
     width: 398px;
+  } */
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          var(--hero-background),
+          var(--hero-background)
+        ),
+        url(../images/main/herobg-mob@2x.jpg);
+    }
   }
 }

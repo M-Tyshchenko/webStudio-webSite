@@ -81,6 +81,39 @@
     color: var(--pressed-state);
   }
 
+  /*=====================Hero=====================*/
+  .hero-section {
+    max-width: 1199px;
+
+    background-image: linear-gradient(
+        var(--hero-background),
+        var(--hero-background)
+      ),
+      url(../images/main/herobg-tablet.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          var(--hero-background),
+          var(--hero-background)
+        ),
+        url(../images/main/herobg-tablet@2x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 36px;
+    max-width: 496px;
+
+    font-size: 56px;
+    line-height: 1.07;
+    text-transform: none;
+  }
+
   /*=====================Features=====================*/
   .feature-list {
     flex-direction: row;
@@ -141,5 +174,39 @@
   }
   .subscribe-input {
     width: 264px;
+  }
+
+  /*=====================Portfolio=====================*/
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .filter {
+    flex-wrap: nowrap;
+    margin-bottom: 64px;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .filter-btn {
+    padding: 12px 24px;
+  }
+  .portfolio-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .project {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*=====================Modal=====================*/
+
+  .modal {
+    width: 408px;
+    /* min-height: 576px; */
+    /* padding: 24px; */
   }
 }

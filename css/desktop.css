@@ -1,11 +1,19 @@
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /*=====================Header=====================*/
   .logo {
     margin-right: 76px;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contacts-list {
@@ -146,6 +154,14 @@
     margin-left: auto;
   }
 
+  .subscribe-input {
+    border-color: var(--light-text);
+  }
+
+  .subscribe-input::placeholder {
+    opacity: 1;
+  }
+
   /*=====================Portfolio=====================*/
   .portfolio {
     padding-top: 100px;
@@ -167,8 +183,8 @@
   /*=====================Modal=====================*/
 
   .modal {
-  
     /* min-height: 576px;
     padding: 24px;
   } */
+  }
 }

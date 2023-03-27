@@ -207,8 +207,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 40px;
-
-  margin-bottom: 284px;
 }
 
 .mobile-nav-link {
@@ -228,6 +226,10 @@ header {
   color: var(--pressed-state);
 }
 
+.mobile-contacts-container {
+  margin-top: auto;
+}
+
 .mobile-contacts-list {
   display: flex;
   flex-direction: column;
@@ -242,6 +244,11 @@ header {
   letter-spacing: 0.02em;
 
   color: var(--primary-brand);
+}
+@media screen and (max-width: 480px) {
+  .mobile-phone {
+    font-size: 24px;
+  }
 }
 
 .mobile-mail {

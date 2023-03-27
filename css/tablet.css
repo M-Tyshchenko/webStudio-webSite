@@ -27,16 +27,17 @@
     position: static;
     padding: 0;
   }
+    .header-nav {
+      display: flex;
+  align-items: center;
+  justify-content: space-between;
+    }
 
   .mobile-close-btn {
     display: none;
   }
 
-  /* .site-nav {
-    display: flex;
-    align-items: center;
-  } */
-
+   
   .site-nav-list {
     flex-direction: row;
   }
@@ -75,8 +76,8 @@
     border-radius: 2px;
   }
 
-  .contacts-info {
-    margin-left: auto;
+  address {
+    margin-left: 122px;
   }
 
   .contacts-list {

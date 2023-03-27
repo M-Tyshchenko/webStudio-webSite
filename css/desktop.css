@@ -16,7 +16,13 @@
     align-items: center;
   }
 
-  
+.header-nav {
+  display: flex;
+
+}
+     address {
+       margin-left: 332px;
+     }
   .contacts-list {
     flex-direction: row;
     gap: 40px;
@@ -28,7 +34,7 @@
     letter-spacing: 0.02em;
   }
 
-  /*=====================Hero=====================*/
+    /*=====================Hero=====================*/
   .hero-section {
     padding: 188px 0;
 

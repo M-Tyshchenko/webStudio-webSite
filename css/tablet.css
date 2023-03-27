@@ -20,6 +20,14 @@
     margin-right: 120px;
   }
 
+  .mobile-menu-btn {
+    display: none;
+  }
+
+  .menu-container {
+    display: none;
+  }
+
   .site-nav-list {
     display: flex;
     gap: 40px;
@@ -207,7 +215,5 @@
 
   .modal {
     width: 408px;
-    /* min-height: 576px; */
-    /* padding: 24px; */
   }
 }

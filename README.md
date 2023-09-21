@@ -1,1 +1,1 @@
-# goit-markup-hw-07
+A website of WebStudio company. Responsive design, transform effects, modal windows.
